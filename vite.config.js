@@ -11,7 +11,7 @@ export default defineConfig({
                 detail: resolve(__dirname, './view.html'),
                 cart: resolve(__dirname, './cart.html'),
                 checkout: resolve(__dirname, './check_out.html'),
-                login: resolve(__dirname, './login.html'),
+                login: resolve(__dirname, './ln.gin.html'),
             },
         },
     },
