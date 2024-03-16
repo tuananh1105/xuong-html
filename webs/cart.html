@@ -12,7 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
-    <link rel="stylesheet" href="./style.scss" />
+    <link rel="stylesheet" href="../style.scss" />
 </head>
 
 <body>
@@ -20,13 +20,13 @@
         <div class="container">
             <div class="header-inner">
                 <a href="" class="header__logo">
-                    <img src="./assets/logo.svg" alt="" />
+                    <img src="../assets/logo.svg" alt="" />
                 </a>
                 <div class="button-mobile"><button>=</button></div>
                 <nav class="main-menu">
                     <ul class="main-menu__list">
                         <li class="main-menu__item">
-                            <a href="./index.html" class="main-menu__link">Home</a>
+                            <a href="../index.html" class="main-menu__link">Home</a>
                         </li>
                         <li class="main-menu__item">
                             <a href="shop.html" class="main-menu__link">Shop</a>
@@ -57,101 +57,61 @@
         </div>
     </header>
     <section class="banner">
-        <img src="https://picsum.photos/id/10/1440/500" alt="" class="banner__img" />
+        <img src="https://picsum.photos/id/229/1440/500" alt="" class="banner__img" />
     </section>
-
-    <main>
-        <div class="container">
-            <h2 class="title">Billing details</h2>
-            <div class="asine">
-                <div class="left">
-                    <div class="name">
-                        <div class="first">
-                            <h5>First Name</h5>
-                            <input type="text">
+    <!--End .banner-->
+    <!-- //cart -->
+    <section class="services">
+        <div class="container-fluid">
+            <div class="service-list-cart">
+                <div class="cart-product">
+                    <div class="bentrai">
+                        <div class="dulieu">
+                            <p>Product</p>
+                            <p id="price">Price</p>
+                            <p id="quantity">Quantity</p>
+                            <p id="subtotal">Subtotal</p>
+                        </div><br>
+                        <div class="dulieu2">
+                            <img src="../assets/icons/21.svg" alt="">
+                            <p>Asgaard sofa</p>
+                            <p>25.000.000đ</p>
+                            <button>1</button>
+                            <p id="price_mua">25.000.000đ</p>
+                            <img src="../assets/icons/22.svg" alt="">
                         </div>
-                        <div class="last">
-                            <h5>Last Name</h5>
-                            <input type="text">
+                    </div>
+                    <div class="benphai">
+                        <h2>Cart Totals</h2>
+                        <div class="totals">
+                            <div class="totals1">
+                                <p>Subtotal</p>
+                            </div>
+                            <div class="totals2">
+                                <p>25.000.000đ</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="company">
-                        <h5>Company Name (Optional)</h5>
-                        <input type="text">
-                    </div>
-                    <div class="country">
-                        <h5>Country / Region</h5>
-                        <input type="text" placeholder="Sri Lanka">
-                    </div>
-                    <div class="address">
-                        <h5>Street address</h5>
-                        <input type="text">
-                    </div>
-                    <div class="city">
-                        <h5>Town / City</h5>
-                        <input type="text">
-                    </div>
-                    <div class="province">
-                        <h5>Province</h5>
-                        <input type="text" placeholder="Western Province">
-                    </div>
-                    <div class="code">
-                        <h5>ZIP code</h5>
-                        <input type="text">
-                    </div>
-                    <div class="phone">
-                        <h5>Phone</h5>
-                        <input type="text">
-                    </div>
-                    <div class="email">
-                        <h5>Email address</h5>
-                        <input type="text">
-                    </div>
-                    <div class="inf">
-                        <input type="text" placeholder="Additional information">
+                        <!-- 1 -->
+                        <div class="totals">
+                            <div class="totals1">
+                                <p>Total</p>
+                            </div>
+                            <div class="totals2__p">
+                                <p>25.000.000đ</p>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <br><br>
+                        <a href="check_out.html"><button>Check Out</button></a>
                     </div>
                 </div>
-                <div class="right">
-                    <div class="title">
-                        <h4>Product</h4>
-                        <h4>Subtotal</h4>
-                    </div>
-                    <div class="title-1">
-                        <p class="asg">Asgaard sofa <span id="asga1">x 1</span></p>
-                        <p class="price-1">25.000.000đ</p>
-                    </div>
-                    <div class="title-2">
-                        <p>Subtotal</p>
-                        <p class="price-1">25.000.000đ</p>
-                    </div>
-                    <div class="title-3">
-                        <p class="total">Total</p>
-                        <p class="price-2">250.00.000đ</p>
-                    </div>
-                    <hr>
-                    <div class="dir">
-                        <input type="radio">
-                        <p>Direct Bank Transfer</p>
-                    </div>
-                    <p class="">Make your payment directly into our bank account. Please use your Order ID as the
-                        payment reference. Your order will not be shipped until the funds have cleared in our account.s
-                    </p>
-                    <div class="dir">
-                        <input type="radio">
-                        <p class="tran">Direct Bank Transfer</p>
-                    </div>
-                    <div class="dir">
-                        <input type="radio">
-                        <p class="tran">Cash On Delivery</p>
-                    </div>
-                    <p class="des2">Your personal data will be used to support your experience throughout this website,
-                        to manage access to your account, and for other purposes described in our <span
-                            id="policy">privacy policy.</span></p>
-                    <div class="btn-oder">
-                        <button>Place order</button>
-                    </div>
-    </main>
-
+            </div>
+        </div>
+    </section>
+    <div class="cach">
+        <br>
+    </div>
+    <!-- end cart -->
     <section class="services">
         <div class="container-fluid">
             <div class="service-list">
@@ -205,7 +165,7 @@
                         <h2 class="footer__title">Links</h2>
                         <ul class="footer-menu-list">
                             <li class="footer-menu-item">
-                                <a href="../index.html" class="footer-menu-link">Home</a>
+                                <a href="" class="footer-menu-link">Home</a>
                             </li>
                             <li class="footer-menu-item">
                                 <a href="" class="footer-menu-link">Shop</a>
